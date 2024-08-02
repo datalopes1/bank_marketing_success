@@ -7,23 +7,28 @@ Os dados estão relacionados com campanhas de marketing direto de uma instituiç
 ### Features
 |Coluna|Descrição|
 |---|---|
-|age|Idade|
-|job|Profissão|
-|marital|Estado civil|
-|education|Nível de educação|
-|default|Inadimplência (yes/no)|
-|balance|Média de balanço anual|
-|housing|Financiamento imobiliário (yes/no)|
-|loan|Empréstimo pessoa (yes/no)|
-|contact|Forma de contato|
-|day|Dia do último contato no mês|
-|month|Mês do último contato|
-|duration|Duração das ligações em segundos|
-|campaign|Número de contatos feitos durante esta campanha|
-|pdays|Dias desde o contato em uma campanha anterior (-1 significa que não foi contatado)|
-|previous|Número de contatos feitos em uma campanha anterior|
-|poutcome|Resultado da última campanha|
-|y|Sucesso dessa campanha (yes/no)|
+|`age`|Idade|
+|`job`|Profissão|
+|`marital`|Estado civil|
+|`education`|Nível de educação|
+|`default`|Inadimplência (yes/no)|
+|`balance`|Média de balanço anual|
+|`housing`|Financiamento imobiliário (yes/no)|
+|`loan`|Empréstimo pessoa (yes/no)|
+|`contact`|Forma de contato|
+|`day`|Dia do último contato no mês|
+|`month`|Mês do último contato|
+|`duration`|Duração das ligações em segundos|
+|`campaign`|Número de contatos feitos durante esta campanha|
+|`pdays`|Dias desde o contato em uma campanha anterior (-1 significa que não foi contatado)|
+|`previous`|Número de contatos feitos em uma campanha anterior|
+|`poutcome`|Resultado da última campanha|
+|`y`|Sucesso dessa campanha (yes/no)|
+
+#### Algumas observações
+- O arquivo `bank-full.csv` contém todos os exemplos, ordenados por data (de maio de 2008 à novembro de 2010). Este foi usado para treino.
+- O arquivo `bank.csv` contém 10% dos dados, escolhidos aleatoriamente do arquivo acima. Este foi utilizado para fazer as predições presentes [neste arquivo](https://github.com/datalopes1/bank_marketing_success/tree/main/data/processed) .xlsx.
+
 ## Metas e objetivos
 
 Os objetivos desse projeto são (1) fazer uma análise exploratória de dados para buscar insights para futuras campanhas, e (2) criar um modelo de Machine Learning para predizer o sucesso das campanhas a partir dos dados nesse conjunto.
